@@ -1,0 +1,65 @@
+{
+	"users":[
+		{
+			"id": 1,
+			"name": "Taffy Griffitt",
+			"email": "tgriffitt0@cnet.com",
+			"position": "Tax Accountant",
+			"phone": "62-(528)676-4458"
+		}, {
+			"id": 2,
+			"name": "Georgeanna Seedman",
+			"email": "gseedman1@wikia.com",
+			"position": "Registered Nurse",
+			"phone": "251-(128)950-6051"
+		}, {
+			"id": 3,
+			"name": "Cull Aspital",
+			"email": "caspital2@wiley.com",
+			"position": "Registered Nurse",
+			"phone": "63-(352)174-6021"
+		}, {
+			"id": 4,
+			"name": "Burt Vasilyonok",
+			"email": "bvasilyonok3@mit.edu",
+			"position": "Systems Administrator I",
+			"phone": "86-(251)326-5353"
+		}, {
+			"id": 5,
+			"name": "Keenan Pabel",
+			"email": "kpabel4@seesaa.net",
+			"position": "Electrical Engineer",
+			"phone": "356-(451)505-7249"
+		}, {
+			"id": 6,
+			"name": "Cordy Godfrey",
+			"email": "cgodfrey5@macromedia.com",
+			"position": "Account Executive",
+			"phone": "62-(475)507-3044"
+		}, {
+			"id": 7,
+			"name": "Carmela Cakebread",
+			"email": "ccakebread6@netscape.com",
+			"position": "VP Product Management",
+			"phone": "62-(796)810-0843"
+		}, {
+			"id": 8,
+			"name": "Everard Posselow",
+			"email": "eposselow7@sciencedaily.com",
+			"position": "Office Assistant I",
+			"phone": "254-(312)731-6968"
+		}, {
+			"id": 9,
+			"name": "Joscelin Shelf",
+			"email": "jshelf8@vistaprint.com",
+			"position": "Recruiter",
+			"phone": "86-(501)138-5940"
+		}, {
+			"id": 10,
+			"name": "Rosalyn Gadie",
+			"email": "rgadie9@devhub.com",
+			"position": "Structural Analysis Engineer",
+			"phone": "86-(923)816-7920"
+		}
+	]
+}
