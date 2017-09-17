@@ -20,8 +20,8 @@ hbs.registerHelper( "getCurrentYear", () => new Date().getFullYear() );
 // regiter scream helper
 hbs.registerHelper( "screamIt", text => `${text.toUpperCase()}!!!` );
 
-
-
+// set a dynamic port in case the envrinment port is not defined
+const port = process.env.PORT || 3000;
 
 // set up express middleware
 app.use( (req, res, next) => {
@@ -40,13 +40,13 @@ app.use( (req, res, next) => {
 });
 
 // create the maintenance middleware
-app.use( (req, res, next) => {
+/* app.use( (req, res, next) => {
 	console.log( "maintenance middleware" );
 	// simply render the maintenance template
 	res.render("maintenance.hbs", {
 		pageTitle: "Under Maintenance"
 	});
-});
+}); */
 
 
 // create an app handler for a rout
@@ -65,6 +65,6 @@ app.get("/about", (req, res) => {
 	});
 });
 
-app.listen(3000, () => {
-	console.log( "Server running on port 3000." );
+app.listen(port, () => {
+	console.log( `Server running on port ${port}.` );
 });
