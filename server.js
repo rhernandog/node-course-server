@@ -40,13 +40,13 @@ app.use( (req, res, next) => {
 });
 
 // create the maintenance middleware
-/* app.use( (req, res, next) => {
+app.use( (req, res, next) => {
 	console.log( "maintenance middleware" );
 	// simply render the maintenance template
 	res.render("maintenance.hbs", {
 		pageTitle: "Under Maintenance"
 	});
-}); */
+});
 
 
 // create an app handler for a rout
